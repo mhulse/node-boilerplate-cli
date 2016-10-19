@@ -1,0 +1,18 @@
+{
+  "name": "",
+  "version": "",
+  "main": "app/bridge",
+  "scripts": {
+    "name": "node . name",
+    "start": "run-s name 2> /dev/null"
+  },
+  "devDependencies": {
+    "babel-cli": "^6",
+    "babel-preset-es2015": "^6",
+    "babel-register": "^6",
+    "fs-extra": "^0",
+    "npm-run-all": "^3",
+    "prompt": "^1",
+    "yargs": "^5"
+  }
+}
