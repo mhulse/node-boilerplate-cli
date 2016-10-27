@@ -2,33 +2,54 @@
 // jshint esversion:6
 
 import prompt from 'prompt';
+import Spinner from 'cli-spinner';
+
+import commands from './commands';
+import options from './options';
+import utilities from './utilities';
+import prompts from './prompts';
 
 prompt.start();
 prompt.delimiter = ' ';
 prompt.message = '';
 
+const spinner = new Spinner.Spinner(options.spinnerStringTemplate);
+spinner.setSpinnerString(options.spinnerString);
+
 function startName() {
 	
 	prompt.get([{
-		name: 'get name',
-		description: 'What’s your name?',
-		default: 'Billy',
-	}], (error, result) => {
+		utilities.getPrompt('ask for name', {
+			required: true,
+		}),
+	}], (error, promptResult) => {
+		
+		spinner.start();
 		
 		if ( ! error) {
 			
-			console.log(`Your name is ${result['get name']}.`);
+			utilities.o('log', `Your name is ${result['get name']}.`);
+			
+			nextStep();
 			
 		} else {
 			
-			console.error(error);
+			utilities.o('log', error);
 			
-			process.exitCode = 1;
+			utilities.exitGraceful();
 			
 		}
 		
 	});
 	
+	
+}
+
+function nextStep() {
+	
+	spinner.stop(true);
+	
+	// Do some other shit here …
 	
 }
 
