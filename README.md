@@ -8,11 +8,13 @@ From the command line, `cd to/empty/directory/` to an empty installation directo
 bash <(curl -sL https://git.io/vXzDy)
 ```
 
----
+Once installed, start hacking away at the code.
 
 Use the following notes for the final project’s `README.md`.
 
 Replace `<USER>` and `<PROJECT>` with your project’s name.
+
+---
 
 ## Usage
 
