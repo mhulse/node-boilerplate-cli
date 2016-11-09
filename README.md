@@ -24,7 +24,7 @@ As a globally installed command line script:
 $ cd to/a/directory/
 $ boilerplate -d .
 # OR:
-$ boilerplate -d to/directory/of/images/
+$ boilerplate -d to/a/directory/
 # Get help:
 $ boilerplate -h
 ```
