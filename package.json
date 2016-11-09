@@ -2,15 +2,18 @@
   "name": "node-boilerplate-cli",
   "version": "0.1.0",
   "description": "",
+  "author": "",
+  "license": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node . -h"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mhulse/node-boilerplate-cli"
   },
   "bin": {
-    "boilerplate": "app/bridge"
+    "boilerplate": "app/bridge.js"
   },
   "main": "app/bridge",
   "dependencies": {

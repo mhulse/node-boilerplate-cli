@@ -16,6 +16,8 @@ Replace `<USER>` and `<PROJECT>` with your project’s name.
 
 ## Usage
 
+As a globally installed command line script:
+
 ```bash
 $ cd to/a/directory/
 $ boilerplate -d .
@@ -48,7 +50,7 @@ $ npm adduser
 $ npm publish
 ```
 
-### Symlink to `bin`
+### Symlink to `/usr/local/bin/`
 
 During development it’s convenient to make the symlink on our path point to the entry point for the app:
 
@@ -85,3 +87,4 @@ $ npm install git+ssh://git@github.com/<repo-owner>/<repo>.git[#<branch>]
 ### Links
 
 * [Building command line tools with Node.js](https://developer.atlassian.com/blog/2015/11/scripting-with-node/)
+* [Tim Pettersen / bitbucket-snippet](https://bitbucket.org/tpettersen/bitbucket-snippet)

@@ -8,7 +8,7 @@ function install() {
 	# Remote repo zip file:
 	SOURCE_ZIP="https://github.com/mhulse/node-boilerplate-cli/tarball/master"
 	# Get the zip file and extract all files:
-	curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1 --exclude={install.sh,.*}
+	curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1 --exclude=install.sh
 	
 	# Testing (comment out the above and run these lines instead):
 	#SOURCE_ZIP="/Users/mhulse/Desktop/test.tar.gz"
