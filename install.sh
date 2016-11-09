@@ -14,8 +14,6 @@ function install() {
 	#SOURCE_ZIP="/Users/mhulse/Desktop/test.tar.gz"
 	#tar --strip-components=1 -zxf $SOURCE_ZIP
 	
-	echo "# My new project"$'\n' > README.md
-	
 	# Let the use know that we are done:
 	echo $'\n'"Congrats! Installation was successful!"$'\n'
 	
