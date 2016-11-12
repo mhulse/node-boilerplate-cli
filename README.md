@@ -31,6 +31,17 @@ $ boilerplate -h
 
 ## Installation
 
+First, install [Homebrew](http://brew.sh/) and then [Node.js](https://nodejs.org/en/):
+
+```bash
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew install node
+# Run this on a regular basis:
+$ brew doctor && brew update && brew upgrade && brew cleanup && brew prune && brew doctor
+```
+
+… now you can install this package using [npm](https://www.npmjs.com/): 
+
 ```bash
 # If on Bitbucket:
 $ npm install git+ssh://git@bitbucket.org/<USER>/<PROJECT>.git#master -g
