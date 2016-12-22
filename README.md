@@ -1,6 +1,6 @@
 # Node Boilerplate CLI
 
-A simple boilerplate starting point for Node.js command line projects.
+**A simple boilerplate starting point for Node.js command line projects.**
 
 From the command line, `cd to/empty/directory/` to an empty installation directory and run:
 
