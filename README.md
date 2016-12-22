@@ -51,7 +51,7 @@ $ npm install <USER>/<PROJECT>.git#master -g
 $ npm install <PROJECT> -g
 ```
 
-## Development Notes
+## Development notes
 
 Publishing as an npm package:
 
@@ -73,7 +73,7 @@ $ npm link
 $ npm unlink
 ```
 
-### BitBucket and GitHub
+### Install from BitBucket and/or GitHub
 
 These are the various ways you can install code directly from Bitbucket using npm:
 
