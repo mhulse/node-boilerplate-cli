@@ -36,7 +36,7 @@ module.exports = {
 	
 	exitGraceful: function(exitCode = 1) {
 		
-		process.exitCode = 1;
+		process.exitCode = exitCode;
 		
 	},
 	
