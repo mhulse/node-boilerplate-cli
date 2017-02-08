@@ -23,7 +23,8 @@
     "babel-preset-es2017": "^6",
     "babel-register": "^6",
     "colors": "^1",
-    "fs-extra": "^1",
+    "fs-extra": "^2",
+    "underscore": "^1",
     "yargs": "^6"
   }
 }
