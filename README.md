@@ -38,7 +38,7 @@ Change the `name`:
 }
 ```
 
-Provide values for all other keys.
+Enter values for all other keys.
 
 ## Publishing
 
