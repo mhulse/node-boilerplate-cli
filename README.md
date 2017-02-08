@@ -20,6 +20,24 @@ Run/test this demo code out of the box:
 $ boilerplate -d path/to/a/directory/
 ```
 
+## Development
+
+To begin development on your own CLI script, the first thing you want to do is edit [`package.json`](package.json); you will want to change the `name`:
+
+```json
+"name": "node-boilerplate-cli"
+```
+
+… and provide your own CLI command name:
+
+```json
+"bin": {
+  "boilerplate": "app/bridge.js"
+}
+```
+
+Provide values for all other keys.
+
 ## Publishing
 
 Set your npm author info:
@@ -39,11 +57,11 @@ $ npm publish
 
 ## Documentation
 
-Feel free to use the placeholder documentation found [`README-template.md`](README-template.md).
+Feel free to use the end-user documentation found [`README-template.md`](README-template.md).
 
-### Placeholder names and descriptions
+### Placeholder strings
 
-Placeholder | Description
+Name | Description
 --- | ---
 `[NAME]` | Human-readable project name
 `[NPM]` | Name of your project on npm
