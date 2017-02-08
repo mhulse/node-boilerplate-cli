@@ -22,7 +22,9 @@ $ boilerplate -d path/to/a/directory/
 
 ## Development
 
-To begin development on your own CLI script, the first thing you want to do is edit [`package.json`](package.json); you will want to change the `name`:
+To begin development on your own CLI script, the first thing you want to do is edit [`package.json`](package.json).
+
+Change the `name`:
 
 ```json
 "name": "node-boilerplate-cli"
