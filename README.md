@@ -25,16 +25,16 @@ $ boilerplate -d path/to/a/directory/
 Set your npm author info:
 
 ```bash
-$ npm set init.author.name "Your Name"
-$ npm set init.author.email "you@example.com"
-$ npm set init.author.url "http://yourblog.com"
+$ npm set init.author.name 'Your Name'
+$ npm set init.author.email 'you@example.com'
+$ npm set init.author.url 'http://yourblog.com'
 $ npm adduser
 ```
 
 Next, bump version number in `package.json` … and publish on npm:
 
 ```
-$ npm publish ./
+$ npm publish
 ```
 
 ## Documentation
