@@ -51,7 +51,7 @@ $ npm set init.author.url 'http://yourblog.com'
 $ npm adduser
 ```
 
-Next, bump version number in `package.json` … and publish on npm:
+Next, bump version number in [`package.json`](package.json) and publish on npm:
 
 ```
 $ npm publish
