@@ -40,7 +40,7 @@ Change the `name`:
 
 Enter values for all other keys.
 
-## Publishing
+## Publishing (optional)
 
 Set your npm author info:
 
