@@ -8,7 +8,7 @@ From the command line, `cd to/an/empty/installation/directory/` and run this rep
 $ bash <(curl -sL https://git.io/vXzDy)
 ```
 
-Next, creat a globally-installed symbolic link:
+Next, create a globally-installed symbolic link:
 
 ```bash
 $ npm link
