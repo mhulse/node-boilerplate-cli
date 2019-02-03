@@ -5,8 +5,8 @@ function install() {
   echo "Installing into ${1} …"
   # Remote repo zip file:
   SOURCE_ZIP="https://github.com/mhulse/node-boilerplate-cli/tarball/master"
-  # Get the zip file and extract all files (note that ignored files are defined in `.gitattributes`):
-  curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1
+  # Get the zip file and extract all files:
+  curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1 --exclude={install.sh,README.md,LICENSE,package-lock.json}
   # Testing (comment out the above and run these lines instead):
   #SOURCE_ZIP="/Users/mhulse/Desktop/test.tar.gz"
   #tar --strip-components=1 -zxf $SOURCE_ZIP
