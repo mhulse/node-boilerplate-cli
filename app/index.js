@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-// jshint esversion:6, -W030
 
 import fs from 'fs-extra';
 import colors from 'colors';
